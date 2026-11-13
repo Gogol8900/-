@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Журнал посещаемости</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header>
+    <button id="back" class="ib" hidden aria-label="Назад">←</button>
+    <h1 id="ttl"></h1>
+  </header>
+  <main id="view"></main>
+  <nav id="tabs">
+    <button data-p="journal"><span>📅</span>Журнал</button>
+    <button data-p="students"><span>👥</span>Ученики</button>
+    <button data-p="quarters"><span>🗓️</span>Четверти</button>
+    <button data-p="settings"><span>⚙️</span>Настройки</button>
+  </nav>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
